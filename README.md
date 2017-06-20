@@ -31,10 +31,10 @@ a system of _N_=10000 atoms, interacting through
 the Lennard-Jones potential cut (but not shifted) at _R_<sub>c</sub>=2.5&sigma;,
 in a cubic box of side 30&sigma;, at a temperature _T_=0.90.
 For this system, &rho;<sub>G</sub> &asymp; 0.024, &rho;<sub>L</sub> &asymp; 0.713.
-The output of `grint.f90` with default parameters, are also provided.
+Output files from `grint.f90` with default parameters are also provided.
 The slices for _z_>0 (_z_<sub>1</sub> in the liquid) and
 _c_<0 (_z_<sub>2</sub> further in the liquid) most resemble homogeneous liquid
 pair distribution functions. Those with _z_<0, _c_>0, where both particles are
 on the gas side, are the most noisy and show least structure.
 For more details about the program,
-refer to the [GUIDE](https://github.com/Allen-Tildesley/examples/GUIDE.md)
+refer to the [GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md).
