@@ -24,6 +24,20 @@ The authors and publishers do not recommend use of this data for any purpose.
 It is made freely available, solely to clarify points made in the text.
 When using or citing the data, you should not imply endorsement by the authors or publishers.
 
+## Pair distribution function (pair_distribution)
+Here we provide data suitable to test the programs `pair_distribution.f90` and `pair_distribution.py`,
+which are available in the [Examples repository](https://github.com/Allen-Tildesley/examples).
+The file `pair_distribution_data.zip` contains
+a set of 500 configurations
+of _N_=256 Lennard-Jones atoms,
+cut (but not shifted) at _R_<sub>c</sub>=2.5&sigma;,
+at the usual state point &rho;=0.75, _T_=1.0.
+The interval between configurations was 100 MC sweeps.
+For more details about the programs,
+and a plot of the results from this data set
+refer to the [Fortran GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md).
+or the [Python GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/python_examples/GUIDE.md).
+
 ## Interface pair correlation function (grint)
 Here we provide data suitable to test the program `grint.f90`,
 which is available in the [Examples repository](https://github.com/Allen-Tildesley/examples).
