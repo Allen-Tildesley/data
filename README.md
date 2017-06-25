@@ -34,8 +34,8 @@ cut (but not shifted) at _R_<sub>c</sub>=2.5&sigma;,
 at the usual state point &rho;=0.75, _T_=1.0.
 The interval between configurations was 100 MC sweeps.
 For more details about the programs,
-and a plot of the results from this data set
-refer to the [Fortran GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md).
+and a plot of the results from this data set,
+refer to the [Fortran GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md)
 or the [Python GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/python_examples/GUIDE.md).
 
 ## Interface pair correlation function (grint)
@@ -53,4 +53,4 @@ _c_<0 (_z_<sub>2</sub> further in the liquid) most resemble homogeneous liquid
 pair distribution functions. Those with _z_<0, _c_>0, where both particles are
 on the gas side, are the most noisy and show least structure.
 For more details about the program,
-refer to the [GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md).
+refer to the [Fortran GUIDE](https://github.com/Allen-Tildesley/examples/blob/master/GUIDE.md).
